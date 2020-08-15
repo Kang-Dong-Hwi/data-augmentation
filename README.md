@@ -47,7 +47,5 @@ for idx in range( y_data.shape[0] ):
 
 $$\fixed_rate = { col \over 382 }*0.95$$
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
-(E = mc ^ 2), $$ x_ {1,2} = \ frac {-b \ pm \ sqrt {b ^ 2-4ac}} {2b}. $$
-    </script>
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
