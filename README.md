@@ -93,8 +93,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix2.png", height=270px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=270px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix2.png", height=370px, width=350px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=370px, width=350px></td>
   </tr>
   
   <tr> 
