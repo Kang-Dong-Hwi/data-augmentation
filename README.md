@@ -43,9 +43,86 @@ for idx in range( y_data.shape[0] ):
     out_left = aug( STFT_left[idx] )
 
 ~~~
+fixed_rate = ( col / 382 )*0.95 
 
 
-$$\fixed_rate = { col \over 382 }*0.95$$
 
-![\Large y=\frac{-b\pm{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+#### [inputdata.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/inputdata.ipynb)
+<br>
 
+timestretch 후
+log scale변환, normalization한 뒤
+.pt 로 저장
+
+<br><br><br>
+#### [DenseNet-aug1.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/DenseNet-aug1.ipynb)
+
+
+<!--
+1. _densenet(growth_rate = 20, block_config = (5,5,5), num_init_features=32)>  : mag, phase
+2. _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag, phase
+3. _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : only mag
+-->
+
+epoch=100<br>
+batch_size=20<br>
+lr=0.00002<br>
+
+<table>
+
+  <tr> 
+      <td colspan="4"><br><br>  _densenet(growth_rate = 20, block_config = (5,5,5), num_init_features=32)>  : mag, phase  </td>
+  </tr>
+
+  <tr>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=230px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_validation_dataset_confusion_matrix.png", height=230px, width=250px></td>
+    
+ </tr>
+  
+  <tr> 
+      <td colspan="4">
+       training accuracy: 91.250%<br>
+       validation accuracy: 44.5%<br>
+      </td>
+  </tr>
+  
+  
+    
+  <tr> 
+      <td colspan="4"><br><br> _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag, phase </td>
+  </tr>
+
+  <tr>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=230px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_validation_dataset_confusion_matrix2.png", height=230px, width=250px></td>
+  </tr>
+  
+  <tr> 
+      <td colspan="4">
+       training accuracy: 99.875%<br>
+       validation accuracy: 31.0%<br>
+      </td>
+  </tr>
+  
+  
+    
+  <tr> 
+      <td colspan="4"><br><br> 3. _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag,_  </td>
+  </tr>
+
+  <tr>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=230px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_validation_dataset_confusion_matrix3.png", height=230px, width=250px></td>
+  </tr>
+  
+  <tr> 
+      <td colspan="4">
+       training accuracy: 96.25%<br>
+       validation accuracy: 83.0%<br>
+      </td>
+  </tr>
+  
+  
+  
+</table>
