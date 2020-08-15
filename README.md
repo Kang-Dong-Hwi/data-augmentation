@@ -19,7 +19,6 @@ columns = []
 
 col = binary_search( S_left[:,:,idx] ) +1
 columns.append(col)
-
 ~~~
 
 
