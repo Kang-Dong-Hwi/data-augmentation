@@ -75,8 +75,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=230px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_validation_dataset_confusion_matrix.png", height=230px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix.png", height=230px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=230px, width=250px></td>
     
  </tr>
   
@@ -94,8 +94,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=230px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_validation_dataset_confusion_matrix2.png", height=230px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix2.png", height=230px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=230px, width=250px></td>
   </tr>
   
   <tr> 
@@ -112,8 +112,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=230px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_validation_dataset_confusion_matrix3.png", height=230px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix3.png", height=230px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=230px, width=250px></td>
   </tr>
   
   <tr> 
