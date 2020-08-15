@@ -13,7 +13,7 @@ for idx in range( y_data.shape[0] ):
 ~~~
 
 
-binary_search : zero padding 시작되는 column의 (index -1) 반환
+binary_search : zero padding 시작되는 column의 (index -1) 반환 <br>
 columns  : (binary_search 반환값 +1)이 저장된 list
 
 
