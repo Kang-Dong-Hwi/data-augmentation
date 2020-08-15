@@ -15,6 +15,10 @@ n_freq = (NFFT//2)-1
 fixed_rate = math.ceil( columns[idx] / 382 * 0.95 * 100 ) / 100
 
   aug1 = nn.Sequential(
-        transforms.TimeStretch( hop_length=hop_length, n_freq=n_freq, fixed_rate=fixed_rate ))
+        transforms.TimeStretch( 
+                hop_length=hop_length, 
+                n_freq=n_freq, 
+                fixed_rate=fixed_rate 
+         ))
         
 ~~~
