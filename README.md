@@ -15,6 +15,7 @@ columns = []
 
 
 <br>
+
 ~~~python
 
 col = binary_search( S_left[:,:,idx] ) +1
@@ -23,6 +24,7 @@ columns.append(col)
 
 
 <br>
+
 ~~~python
 
 hop_length = 250
