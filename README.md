@@ -74,15 +74,15 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix.png", height=270px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=270px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix.png", height=430px, width=400px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=430px, width=400px></td>
     
  </tr>
   
   <tr> 
       <td colspan="4">
-       training accuracy: 91.250%<br>
-       validation accuracy: 44.5%<br>
+       training accuracy: 94.625%<br>
+       validation accuracy: 67.50%<br>
       </td>
   </tr>
   
@@ -99,8 +99,8 @@ lr=0.00002<br>
   
   <tr> 
       <td colspan="4">
-       training accuracy: 99.875%<br>
-       validation accuracy: 31.0%<br>
+       training accuracy: 99.50%<br>
+       validation accuracy: 57.5%<br>
       </td>
   </tr>
   
@@ -111,14 +111,14 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix3.png", height=270px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=270px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix3.png", height=430px, width=400px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=430px, width=400px></td>
   </tr>
   
   <tr> 
       <td colspan="4">
-       training accuracy: 96.25%<br>
-       validation accuracy: 83.0%<br>
+       training accuracy: 96.75%<br>
+       validation accuracy: 88.00%<br>
       </td>
   </tr>
   
