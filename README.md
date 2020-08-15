@@ -12,10 +12,10 @@ for idx in range( y_data.shape[0] ):
     columns.append(col)
 ~~~
 
-<!--
+
 binary_search : zero padding 시작되는 column의 (index -1) 반환
 columns  : (binary_search 반환값 +1)이 저장된 list
--->
+
 
 
 <br>
