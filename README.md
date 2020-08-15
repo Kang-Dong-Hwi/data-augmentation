@@ -1,9 +1,9 @@
 # data-augmentation
 timestretch
 
-
-#### [data augmentation.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/data%20augmentation.ipynb)
 <br><br>
+### 1. [data augmentation.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/data%20augmentation.ipynb)
+<br>
 
 ~~~python
 for idx in range( y_data.shape[0] ):
@@ -18,7 +18,6 @@ columns  : (binary_search 반환값 +1)이 저장된 list
 -->
 
 
-<br>
 <br>
 
 ~~~python
@@ -45,9 +44,9 @@ for idx in range( y_data.shape[0] ):
 ~~~
 fixed_rate = ( col / 382 )*0.95 
 
+<br><br><br>
 
-
-#### [inputdata.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/inputdata.ipynb)
+### 2. [inputdata.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/inputdata.ipynb)
 <br>
 
 timestretch 후
@@ -55,7 +54,7 @@ log scale변환, normalization한 뒤
 .pt 로 저장
 
 <br><br><br>
-#### [DenseNet-aug1.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/DenseNet-aug1.ipynb)
+### 3. [DenseNet-aug1.ipynb](https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/DenseNet-aug1.ipynb)
 
 
 <!--
@@ -75,8 +74,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix.png", height=230px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=230px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix.png", height=270px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix.png", height=270px, width=250px></td>
     
  </tr>
   
@@ -94,8 +93,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix2.png", height=230px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=230px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix2.png", height=270px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix2.png", height=270px, width=250px></td>
   </tr>
   
   <tr> 
@@ -112,8 +111,8 @@ lr=0.00002<br>
   </tr>
 
   <tr>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix3.png", height=230px, width=250px> </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=230px, width=250px></td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/timestretch_train_confusion_matrix3.png", height=270px, width=250px> </td>
+    <td> <img src="https://github.com/Kang-Dong-Hwi/data-augmentation/blob/master/screenshots/time_stretch_train_dataset_confusion_matrix3.png", height=270px, width=250px></td>
   </tr>
   
   <tr> 
