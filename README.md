@@ -45,7 +45,7 @@ for idx in range( y_data.shape[0] ):
 ~~~
 
 
-$$
+$$\
 fixed_rate = { col \over 382 }*0.95
 $$
 
