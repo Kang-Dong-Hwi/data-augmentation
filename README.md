@@ -45,9 +45,7 @@ for idx in range( y_data.shape[0] ):
 ~~~
 
 
-$$\
-fixed_rate = { col \over 382 }*0.95
-$$
+$$\fixed_rate = { col \over 382 }*0.95$$
 
-
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub> x
 
