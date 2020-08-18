@@ -70,7 +70,7 @@ lr=0.00002<br>
 <table>
 
   <tr> 
-      <td colspan="4"><br><br>  _densenet(growth_rate = 20, block_config = (5,5,5), num_init_features=32)>  : mag, phase  </td>
+      <td colspan="4"><br><br> 1.  _densenet(growth_rate = 20, block_config = (5,5,5), num_init_features=32)>  : mag, phase  </td>
   </tr>
 
   <tr>
@@ -89,7 +89,7 @@ lr=0.00002<br>
   
     
   <tr> 
-      <td colspan="4"><br><br> _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag, phase </td>
+      <td colspan="4"><br><br> 2. _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag, phase </td>
   </tr>
 
   <tr>
@@ -107,7 +107,7 @@ lr=0.00002<br>
   
     
   <tr> 
-      <td colspan="4"><br><br> 3. _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag,_  </td>
+      <td colspan="4"><br><br> 3. magnitude 만 입력해주었을 때<br> _densenet(growth_rate = 64, block_config = (5,5,4), num_init_features=64)>  : mag,_  </td>
   </tr>
 
   <tr>
